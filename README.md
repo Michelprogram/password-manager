@@ -5,11 +5,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="images/weather.gif" alt="Logo" width="80" height="80">
+    <img src="images/cadenas.gif" alt="Logo" width="80" height="80">
 
-  <h3 align="center">Weather App</h3>
+  <h3 align="center">Password manager</h3>
 
-  <p align="center">Get weather from French cities</p>
+  <p align="center">Password manager for IOS application with JS API</p>
 </div>
 
  <br />  
@@ -50,9 +50,11 @@
 
 List of technologies / frameworks used during the project.
 
-* [![Javascript Badge](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en/docs/Web/JavaScript)
-* [![HTML Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en/docs/Web/HTML)
-* [![CSS Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en/docs/Web/CSS)
+
+* [![NodeJS Badge](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
+* [![SQLite Badge](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/index.html)
+* [![Swift Badge](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)](https://developer.apple.com/swift/)
+* [![Express Badge](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)](https://expressjs.com/fr/)
 
 <p align="right"><a href="#top">⬆️</a></p>
 
@@ -66,7 +68,14 @@ To get a local copy up and running follow these simple example steps.
 
 ### 🗺️ Prerequisites
 
-* Get Api key from http://api.weatherstack.com/
+* To run Swift part need MAC OS
+* API Part need nodejs 14 installed
+
+### ⚙️ Installation
+
+```sh
+$bash : cd API && npm i
+```
 
 <p align="right"><a href="#top">⬆️</a></p>
 
@@ -74,8 +83,8 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## 💾 Usage
 
-```
-open / run index.html
+```sh
+$bash : npm run start
 ```
 
 <p align="right"><a href="#top">⬆️</a></p>
@@ -117,7 +126,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Reach me at : gauron.dorian.pro@gmail.com.
 
-Project Link: [https://github.com/Michelprogram/weather](https://github.com/Michelprogram/weather)
+Project Link: [https://github.com/Michelprogram/password-manager](https://github.com/Michelprogram/password-manager)
 
 <p align="right"><a href="#top">⬆️</a></p>
 
@@ -129,7 +138,9 @@ Project Link: [https://github.com/Michelprogram/weather](https://github.com/Mich
 
 This space is a list to resources i found helpful and would like to give credit to.
 
-* [Play with api](https://developer.mozilla.org/fr/docs/Web/API/XMLHttpRequest)
+* [SQL and nodejs](https://www.w3schools.com/nodejs/nodejs_mysql.asp)
+* [Express](https://expressjs.com/fr/)
+* [Swift](https://developer.apple.com/swift/)
 
 <p align="right"><a href="#top">⬆️</a></p>
 
